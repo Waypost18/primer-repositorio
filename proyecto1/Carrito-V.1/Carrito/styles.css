@@ -1,0 +1,18 @@
+:root{
+    --main-color: #A6E3E9;
+    --nav-color: #71C9CE;
+    --article-color: #A6E3E9;
+    --footer-color: #E3FDFD;
+}
+nav{
+    background-color: var(--nav-color)
+}
+main{
+    background-color: var(--main-color);
+}
+article{
+    background-color: var(--article-color);
+}
+footer {
+    background-color: var(--footer-color);
+}

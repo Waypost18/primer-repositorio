@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Titulo';
+    src: url(../assets/font/PTSerif-Bold.ttf);
+}
+@font-face {
+    font-family: 'Subtitulo';
+    src: url(../assets/font/PTSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'Parrafo';
+    src: url(../assets/font/Asap-VariableFont_wdth,wght.ttf);
+}
+
+:root{
+    --main-color: #A6E3E9;
+    --nav-color: #71C9CE;
+    --article-color: #A6E3E9;
+    --footer-color: #3a7477;
+}
+nav{
+    background-color: var(--nav-color)
+}
+main{
+    background-color: var(--main-color);
+}
+article{
+    background-color: var(--article-color);
+}
+footer {
+    background-color: var(--footer-color);
+}
+
+.titulo{
+    font-family: 'Titulo';
+}
+
+.subtitulo{
+    font-family: 'Subtitulo';
+    font-weight: 500;
+}
+
+.parrafo{
+    font-family: 'Parrafo';
+    font-weight: 200;
+}
+/* Detalle de Producto*/
+#contenedor1{
+    margin: 1em;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/Excurciones/trendelasnuebes/back.jpg);
+}
+header img{
+    height: 500px;
+    width: 1400px;
+}
+#contenedor2{
+    display: flex;
+    flex-direction: row;
+}
+#contenedor1 .card{
+    background-color: var(--article-color);
+}
+#contenedor2 .card{
+    background-color: var(--article-color);
+    
+}
+.card{
+    text-align: justify;
+    margin: 1em;
+}
+.carousel{
+    margin: 0.5em;
+}
+#comentarios{
+    display: flex;
+        flex-direction: column;
+}
+#contenedormap{
+    margin: 1em;
+}
+@media (max-width: 992px) { 
+    #contenedor1{
+        display: flex;
+        flex-direction: column;
+    }
+    #contenedor2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

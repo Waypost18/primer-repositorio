@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../Argentina Programa"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Rolling"
+	}
+}
